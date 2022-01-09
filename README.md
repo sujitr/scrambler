@@ -1,5 +1,3 @@
-# scrambler
-
 Scrambler
 =========
 Its a Custom file encryptor & decryptor using AES encryption on top of Base64.
