@@ -27,6 +27,7 @@ jobs:
     - name: maven-settings-xml-action for setting up settings.xml
       uses: whelk-io/maven-settings-xml-action@v20
       with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         repositories: '[{ "id": "github", "url": "https://maven.pkg.github.com/sujitr/file-compare" }]'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
