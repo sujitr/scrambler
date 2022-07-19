@@ -57,7 +57,7 @@ public class GaloisCounterAESEngine implements CryptoEngine {
     
     public GaloisCounterAESEngine(KeySize k) {
     	super();
-        AES_KEY_SIZE = k.getBitLenth();
+        AES_KEY_SIZE = k.getBitLength();
         SALT_SIZE = 64;
         IV_SIZE = 96;
         TAG_BIT_LENGTH = 128;

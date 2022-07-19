@@ -54,7 +54,7 @@ public class CbcAESEngine implements CryptoEngine {
     
     public CbcAESEngine(KeySize k){
     	super();
-        AES_KEY_SIZE = k.getBitLenth();
+        AES_KEY_SIZE = k.getBitLength();
         SALT_SIZE = 64;
         ITERATION_COUNT = 65536;
     }

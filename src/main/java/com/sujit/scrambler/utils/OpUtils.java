@@ -115,7 +115,7 @@ public class OpUtils {
                 }
             }
             if(keySize!=null){
-                console.printf("You have chosen key length as %d bits\n",keySize.getBitLenth());
+                console.printf("You have chosen key length as %d bits\n",keySize.getBitLength());
             }
         }while(!isReadProperly);
         return keySize;
@@ -285,7 +285,7 @@ public class OpUtils {
         console.printf("Crypto Architecture : %s\n",
                 scramblerMould.getCryptoArchitecture().name());
         console.printf("Key length : %d\n",
-                scramblerMould.getKeySize().getBitLenth());
+                scramblerMould.getKeySize().getBitLength());
         console.printf("Implementation choice : %s\n",
                 scramblerMould.getCryptoChoices().toString());
         console.printf("Number of characters in passphrase : %d\n",
