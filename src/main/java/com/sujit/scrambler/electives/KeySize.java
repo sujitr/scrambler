@@ -20,7 +20,7 @@ public enum KeySize {
 		this.bitLength = bitLength;
 	}
 	
-	public int getBitLenth(){
+	public int getBitLength(){
 		return this.bitLength;
 	}
 
