@@ -189,7 +189,7 @@ public class OpUtils {
                             (keySize == KeySize.BIT_32 && password.length != 32)) {
                         console.printf("For AES Default, with %d bit key, " +
                                 "you need to have %d characters in your passphrase. " +
-                                "Please try again.\n", keySize.getBitLenth(),keySize.getBitLenth());
+                                "Please try again.\n", keySize.getBitLenth(),keySize.getByteLenth());
                         continue;
                     }
                 }
